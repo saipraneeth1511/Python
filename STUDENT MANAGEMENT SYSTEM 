@@ -1,0 +1,102 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMQkKxF5tI2M37oGA0nSSz7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/saipraneeth1511/Python/blob/main/STUDENT%20MANAGEMENT%20SYSTEM%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 213
+        },
+        "id": "7RuC-ib8VJ0Q",
+        "outputId": "7269cbcf-b63f-4e41-c092-26ffc9ad9d87"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "expected an indented block after 'elif' statement on line 13 (3259469270.py, line 14)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_2415/3259469270.py\"\u001b[0;36m, line \u001b[0;32m14\u001b[0m\n\u001b[0;31m    name = input(\"Enter your name: \")\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m expected an indented block after 'elif' statement on line 13\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "\n",
+        "a = int(input(\"Enter the marks in subject 1: \"))\n",
+        "b = int(input(\"Enter the marks in subject 2: \"))\n",
+        "c = int(input(\"Enter the marks in subject 3: \"))\n",
+        "\n",
+        "Sum = a + b + c\n",
+        "print(\"Sum =\", Sum)\n",
+        "\n",
+        "avg = Sum / 3\n",
+        "print(\"Average =\", avg)\n",
+        "\n",
+        "if avg > 90:\n",
+        "    print(\"Grade A\")\n",
+        "elif avg > 80:\n",
+        "name = input(\"Enter your name: \")\n",
+        "roll_no = int(input(\"Enter your roll no: \"))\n",
+        "department = input(\"Enter your Department: \")\n",
+        "\n",
+        "fees = int(input(\"Enter the total fees: \"))\n",
+        "paid_fees = int(input(\"Enter the fees paid: \"))\n",
+        "\n",
+        "total_balance = fees - paid_fees\n",
+        "\n",
+        "print(\"Total Fees =\", fees)\n",
+        "print(\"Paid Fees =\", paid_fees)\n",
+        "print(\"Total Balance =\", total_balance)\n",
+        "\n",
+        "a = int(input(\"Enter the marks in subject 1: \"))\n",
+        "b = int(input(\"Enter the marks in subject 2: \"))\n",
+        "c = int(input(\"Enter the marks in subject 3: \"))\n",
+        "\n",
+        "Sum = a + b + c\n",
+        "print(\"Sum =\", Sum)\n",
+        "\n",
+        "avg = Sum / 3\n",
+        "print(\"Average =\", avg)\n",
+        "\n",
+        "if avg > 90:\n",
+        "    print(\"Grade A\")\n",
+        "elif avg > 80:\n",
+        "    print(\"Grade B\")\n",
+        "elif avg > 70:\n",
+        "    print(\"Grade C\")\n",
+        "elif avg > 60:\n",
+        "    print(\"Grade D\")\n",
+        "else:\n",
+        "    print(\"Grade E\")"
+      ]
+    }
+  ]
+}
